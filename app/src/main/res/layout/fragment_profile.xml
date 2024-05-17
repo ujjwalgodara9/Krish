@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.project.agroworldapp.ui.fragments.ProfileFragment">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:backgroundTint="@color/colorPrimary"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/crd_profile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/dp_10"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:id="@+id/ivProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/app_icon4" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:layout_marginEnd="@dimen/dp_20"
+                    android:layout_toEndOf="@id/crd_profile"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/profile"
+                    android:textSize="@dimen/sp_25" />
+
+                <ImageView
+                    android:id="@+id/ivLogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/ivMenuOption"
+                    android:padding="@dimen/dp_8"
+                    android:src="@drawable/baseline_logout_24" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/ivMenuOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dp_8"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginEnd="@dimen/dp_8"
+                    android:layout_marginBottom="@dimen/dp_8"
+                    android:padding="@dimen/dp_8"
+                    android:src="@drawable/baseline_more_vert_24" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/crdHeader">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/layoutUserData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginEnd="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/crdUserProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dp_30"
+                        app:cardCornerRadius="14dp">
+
+                        <ImageView
+                            android:id="@+id/userImageUserFrag"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/colorPrimary" />
+
+                        <ProgressBar
+                            android:id="@+id/uploadProgressBarProfile"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/tvProfileUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/crdUserProfile"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:fontFamily="@font/fredoka_one"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:id="@+id/tvProfileUserEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvProfileUserName"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="@color/fontColor" />
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_alarm_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="85dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_light"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            app:fabSize="auto" />
+
+    </RelativeLayout>
+
+
+</layout>

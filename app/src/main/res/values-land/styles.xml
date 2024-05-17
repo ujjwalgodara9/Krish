@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/up</item>
+        <item name="android:windowExitAnimation">@anim/down</item>
+    </style>
+
+
+</resources>

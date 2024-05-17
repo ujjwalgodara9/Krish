@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Krishi</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="quote1">"Best Guide and Helper for any Farmer. Provides various features at one place!"</string>
+    <string name="register">Register</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="proceed">Proceed</string>
+    <string name="enable_gps_service">Please enable your GPS service to show your exact location</string>
+    <string name="check_internet_connection">Check Internet Connection\nPlease enable your Internet service to get the data</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="username">Seeds Shopping</string>
+    <string name="seed_title">Seed Title</string>
+    <string name="price">Price</string>
+    <string name="description">Product Description</string>
+    <string name="benefits">Description</string>
+    <string name="transport">Book Vehicle</string>
+    <string name="no_data_found">Looks like Admin haven\'t added any item yet.</string>
+    <string name="vehicle_remove_message"> Upon removal from here, the vehicle will be removed from farmer dashboard</string>
+    <string name="product_remove_message"> Upon removal from here, the product will be removed from farmer dashboard</string>
+    <string name="add_address" translatable="false">Add Address</string>
+    <string name="total" translatable="false">Total:</string>
+    <string name="_456_88">456.88</string>
+    <string name="proceed_to_payment">Proceed To Payment</string>
+    <string name="already_nhave_an_naccount">Already \nhave an \nAccount?</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="use_other_methods">Use other Methods</string>
+    <string name="something_wrong_err">Something went wrong</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="loader_message">Please wait..we\'re running your requests</string>
+    <string name="crops_information">Crops Information</string>
+    <string name="irrigation">Irrigation</string>
+    <string name="land_preparation">Land Preparation</string>
+    <string name="harvesting">Harvesting</string>
+    <string name="post_harvest">Post Harvest</string>
+    <string name="email">Email</string>
+    <string name="add_product_to_agro_world_store">Add product to AgroWorld store.</string>
+    <string name="title">title</string>
+    <string name="update_product">Update Product</string>
+    <string name="here_s_nyour_first_nstep_with_nagro_world">Here’s\nyour first\nstep with \nAgroWorld!</string>
+    <string name="name">name</string>
+    <string name="crops">Crops</string>
+    <string name="flowers">Flowers</string>
+    <string name="fruits">Fruits</string>
+    <string name="number">Number</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="add_vehicle_to_agro_world_store">Add vehicle to AgroWorld store.</string>
+    <string name="model">model</string>
+    <string name="address">address</string>
+    <string name="contact">Contact</string>
+    <string name="update_vehicle">Update Vehicle</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="provide_permission">Please provide required permission</string>
+    <string name="manufacture_panel">Manufacture Panel</string>
+    <string name="go_to_cart">Go to cart</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="forecast_weather">Hourly Forecast weather</string>
+    <string name="diseases">Diseases</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="products">Products</string>
+    <string name="how_to_expand">How To Expand</string>
+    <string name="articles">Articles</string>
+    <string name="no_cart_data_found">Look\'s like you haven\'t add anything to cart list</string>
+    <string name="next">Proceed</string>
+    <string name="this_field_required">This field is required</string>
+    <string name="create_new_routine">Create new routine</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="priority">Priority</string>
+    <string name="done">done</string>
+    <string name="vehicle_name">vehicle name</string>
+    <string name="location">location</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="no_data_found_for_this_search">No Data Found for this search</string>
+    <string name="call">Call</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="read_articles">Read Articles</string>
+    <string name="profile">Profile</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="requiredDataChecks">Check all fields once and make sure they are filled in accurately</string>
+    <string name="image_uploaded">Image uploaded successfully</string>
+    <string name="failed_to_generate_url">Failed to generate Image url</string>
+    <string name="product_updated">Product updated successfully</string>
+    <string name="transport_panel">Transport Panel</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="no_transaction_found">Looks like you haven\'t made any transactions yet.</string>
+    <string name="logout_alert_message">Are you sure you want to logout?</string>
+    <string name="logout">Logout</string>
+    <string name="task_completed">Task Completed</string>
+    <string name="task_deleted">Task deleted successfully</string>
+    <string name="payment_success">Payment Success</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="exit_message">Please press again to exit.</string>
+    <string name="item_removed_from_cart">"Item removed successfully price "</string>
+    <string name="failed_to_remove_cart_item">Failed to remove item.</string>
+    <string name="routine_added">Routine added successfully.</string>
+    <string name="vehicle_updated">Vehicle updated successfully</string>
+    <string name="failed_to_update_vehicle">Failed to update vehicle details.</string>
+    <string name="google_signIn_success">Google sign in successful.</string>
+    <string name="email_valid">Check your email once, it is not valid.</string>
+    <string name="contact_valid">The number should be ten digits long.</string>
+    <string name="password_valid">should be greater than six char include symbols</string>
+    <string name="required_location">Location is required</string>
+    <string name="launguage_updated">Language updated to English</string>
+    <string name="about_us">About</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="app_version">App Version</string>
+    <string name="low_to_high">Low To High</string>
+    <string name="high_to_low">High To Low</string>
+    <string name="forecast">Forecast</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="vehicle_not_found_location">Looks like Transport community haven\'t added any item for</string>
+    <string name="show_product">Show Products</string>
+    <string name="show_vehicles">Show Vehicles</string>
+    <string name="alibag" translatable="false">Alibag</string>
+    <string name="panvel" translatable="false">Panvel</string>
+    <string name="murud" translatable="false">Murud</string>
+    <string name="pen" translatable="false">Pen</string>
+    <string name="uran" translatable="false">Uran</string>
+    <string name="karjat" translatable="false">Karjat</string>
+    <string name="mangaon" translatable="false">Mangaon</string>
+    <string name="roha" translatable="false">Roha</string>
+    <string name="shrivardhan" translatable="false">Shrivardhan</string>
+    <string name="poladpur" translatable="false">Poladpur</string>
+    <string name="raigad" translatable="false">Raigad</string>
+    <string name="pune" translatable="false">Pune</string>
+    <string name="aundh" translatable="false">Aundh</string>
+    <string name="bavdhan" translatable="false">Bavdhan</string>
+    <string name="balewadi" translatable="false">Balewadi</string>
+    <string name="dhankawadi" translatable="false">Dhankawadi</string>
+    <string name="dhanori" translatable="false">Dhanori</string>
+    <string name="hadapsar" translatable="false">Hadapsar</string>
+    <string name="katraj" translatable="false">Katraj</string>
+    <string name="kharadi" translatable="false">Kharadi</string>
+    <string name="kothrud" translatable="false">Kothrud</string>
+    <string name="chinchwad" translatable="false">Chinchwad</string>
+    <string name="swargate" translatable="false">Swargate</string>
+    <string name="ratnagiri" translatable="false">Ratnagiri</string>
+    <string name="dapoli" translatable="false">Dapoli</string>
+    <string name="mandangad" translatable="false">Mandangad</string>
+    <string name="khed" translatable="false">Khed</string>
+    <string name="chiplun" translatable="false">Chiplun</string>
+    <string name="guhagar" translatable="false">Guhagar</string>
+    <string name="sangameshwar" translatable="false">Sangameshwar</string>
+    <string name="lanja" translatable="false">Lanja</string>
+    <string name="rajapur" translatable="false">Rajapur</string>
+    <string name="parbhani" translatable="false">Parbhani</string>
+    <string name="sangli" translatable="false">Sangli</string>
+    <string name="satara" translatable="false">Satara</string>
+    <string name="sindhudurg" translatable="false">Sindhudurg</string>
+    <string name="thane" translatable="false">Thane</string>
+    <string name="google_sign_up">Google Sign In</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="failed_to_fetch_location">Failed to fetch latitude &amp; longitude.</string>
+    <string name="message">Message</string>
+    <string name="remove_product_dialog_msg">Are you sure,you want to remove product??</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="failed_to_remove_prodcut">Failed to remove product.</string>
+    <string name="token_expired">Token has been expired or revoked.</string>
+    <string name="change_language">Change Language</string>
+    <string name="proceed_with_ideas">Proceed With Ideas</string>
+    <string name="data_language_message">Note- Data should be uploaded according to the selected language because the data will be displayed according to the chosen language.</string>
+    <string name="insect_and_control">Insect &amp; Control</string>
+    <string name="constant_title_error">It\'s constant, you can\'t change it.</string>
+    <string name="no_payment_transaction_message">Look\'s like you haven\'t made any transaction yet.</string>
+</resources>
